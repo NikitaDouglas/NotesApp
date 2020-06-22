@@ -8,8 +8,13 @@ NoteList.prototype = (function(){
         this.list.push(new Note(text))
     }
 
+    function returnNotes() {
+       return this.list
+    }
+
     return {
-        createAndStore: createAndStore
+        createAndStore: createAndStore,
+        returnNotes: returnNotes
     }
 
 })();
