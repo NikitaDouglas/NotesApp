@@ -1,0 +1,3 @@
+function NoteList() {
+    this.list = []
+}
